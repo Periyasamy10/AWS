@@ -39,7 +39,7 @@ This guide will walk you through creating IAM users, creating groups, attaching 
 
 ![Create IAM Group](https://github.com/user-attachments/assets/aa114fda-0e27-4685-a1d4-3cce08beef76)
 
-2. Choose the **Permissions** tab, and then choose **Add permissions**.
+2. Choose the **Permissions** tab, and then choose **Attach policy**.
 
 ![Create IAM Group](https://github.com/user-attachments/assets/6ec8fc00-d839-4859-b937-3349ac76ddb3)
 
@@ -47,7 +47,7 @@ This guide will walk you through creating IAM users, creating groups, attaching 
 
 ![Create IAM Group](https://github.com/user-attachments/assets/2267a4e6-fe1e-4cfb-97d1-5e5abd0cb355)
 
-4. Choose **Add permissions**.
+4. Choose **Attach policy**.
 
 ![Create IAM Group](https://github.com/user-attachments/assets/d672d146-7f9f-4c60-9d8a-4fefce7f3eff)
 
