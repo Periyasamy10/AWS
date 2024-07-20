@@ -11,14 +11,17 @@ This guide will walk you through creating an IAM role that grants EC2 instances 
    - In the navigation pane, choose **Roles**.
    - Click on **Create role**.
 
-   ![Create IAM Role](https://github.com/user-attachments/assets/669848ad-a785-40c5-8b3e-ec7441d01c97)
+   ![Create IAM Role](https://github.com/user-attachments/assets/90184a4f-70a0-47af-ae6e-7297d542e2a1)
 
 2. **Select AWS Service**
    - Under **Select trusted entity**, choose **AWS service**.
+  
+![Create IAM Role](https://github.com/user-attachments/assets/9b02be78-f9c2-4e35-8dba-f2c3df13eafb)
+
    - Select **EC2** from the list of services.
    - Click **Next**.
 
-   ![Select AWS Service](images/select-aws-service.png)
+   ![Select AWS Service](https://github.com/user-attachments/assets/a2186daf-c1cb-47fb-879f-2d9d298bd3a2)
 
 ### 2. Attach Permissions Policy
 
