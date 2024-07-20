@@ -7,9 +7,12 @@ This guide will walk you through creating IAM users, creating groups, attaching 
 ### 1. Create IAM Users
 
 1. Sign in to the AWS Management Console and open the IAM console at https://console.aws.amazon.com/iam/.
-2. In the navigation pane, choose **Users** and then choose **Add user**.
-3. For **User name**, enter `John`. Select the checkbox next to **AWS Management Console access**, then choose **Next: Permissions**.
-4. Repeat the steps for another user, `Jenny`.
+2. In the navigation pane, choose **Users** and then choose **Create user**.
+
+![Create IAM User](https://github.com/user-attachments/assets/81ca8a6b-19db-455e-b989-dffa02e9d626)
+   
+4. For **User name**, enter `John`. Select the checkbox next to **AWS Management Console access**, then choose **Next: Permissions**.
+5. Repeat the steps for another user, `Jenny`.
 
 ![Create IAM User](images/create-user.png)
 
