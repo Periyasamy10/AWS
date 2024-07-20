@@ -59,35 +59,25 @@ This guide will walk you through creating IAM users, creating groups, attaching 
 
 1. In the navigation pane, choose **User groups** and then select the `EC2` group.
 2. Choose the **Users** tab, and then choose **Add users**.
+
+![Create IAM Group](https://github.com/user-attachments/assets/a29c3efa-5299-4677-beb7-2b72a5b4bb04)
+   
 3. Select the checkbox next to `John`, and then choose **Add user**.
+
+![Create IAM Group](https://github.com/user-attachments/assets/4ce7176a-a544-45f0-aa07-8868a12b0328)
+
 4. Repeat the steps for the `S3` group, but add the user `Jenny`.
 
-![Add User to Group](images/add-user-to-group.png)
+![Create IAM Group](https://github.com/user-attachments/assets/deb2dc5a-2157-4a37-8f75-a58d3eef56cc)
 
 ## Verification
 
 To verify that the users are correctly added to their respective groups and the policies are attached:
 
-1. Go to the **User groups** section in the IAM console and select the `EC2` group. Check the **Users** and **Permissions** tabs to see the user `John` and the attached policy `AmazonEC2FullAccess`.
+1. Login to John user and try to access EC2
+   We cannot access `S3` as we have attach only `EC2` permission for this group
+   
 2. Similarly, check the `S3` group for the user `Jenny` and the attached policy `AmazonS3FullAccess`.
-
-### Images
-
-1. **Creating IAM User**
-
-   ![Create IAM User](images/create-user.png)
-
-2. **Creating IAM Group**
-
-   ![Create IAM Group](images/create-group.png)
-
-3. **Attaching Policy to Group**
-
-   ![Attach Policy](images/attach-policy.png)
-
-4. **Adding User to Group**
-
-   ![Add User to Group](images/add-user-to-group.png)
 
 ## Conclusion
 
