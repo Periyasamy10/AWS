@@ -37,14 +37,23 @@ This guide will walk you through creating IAM users, creating groups, attaching 
 
 1. In the navigation pane, choose **User groups** and then select the `EC2` group.
 
-
+![Create IAM Group](https://github.com/user-attachments/assets/aa114fda-0e27-4685-a1d4-3cce08beef76)
 
 2. Choose the **Permissions** tab, and then choose **Add permissions**.
+
+![Create IAM Group](https://github.com/user-attachments/assets/6ec8fc00-d839-4859-b937-3349ac76ddb3)
+
 3. Choose **Attach policies directly**, search for `AmazonEC2FullAccess`, select it, and then choose **Next: Review**.
+
+![Create IAM Group](https://github.com/user-attachments/assets/2267a4e6-fe1e-4cfb-97d1-5e5abd0cb355)
+
 4. Choose **Add permissions**.
+
+![Create IAM Group](https://github.com/user-attachments/assets/d672d146-7f9f-4c60-9d8a-4fefce7f3eff)
+
 5. Repeat the steps for the `S3` group, but attach the `AmazonS3FullAccess` policy.
 
-![Attach Policy](images/attach-policy.png)
+![Create IAM Group](https://github.com/user-attachments/assets/d6b6c65f-4c34-40f3-998f-8c2e435c022d)
 
 ### 4. Add Users to Groups
 
