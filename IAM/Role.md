@@ -71,4 +71,4 @@ This guide will walk you through creating an IAM role that grants EC2 instances 
    ```bash
    aws s3 ls
 
-   ![Attach Role to EC2 Instance](https://github.com/user-attachments/assets/c9f85674-a590-414c-8920-72282842b9ce)
+![Attach Role to EC2 Instance](https://github.com/user-attachments/assets/c9f85674-a590-414c-8920-72282842b9ce)
