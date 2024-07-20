@@ -30,7 +30,7 @@ This guide will walk you through creating an IAM role that grants EC2 instances 
    - Select the `AmazonS3ReadOnlyAccess` policy.
    - Click **Next**.
 
-   ![Attach Permissions Policy](images/attach-policy-1.png)
+   ![Attach Permissions Policy](https://github.com/user-attachments/assets/70739c19-4060-443f-80bb-52d403ef5803)
 
 ### 3. Configure Role
 
@@ -39,23 +39,30 @@ This guide will walk you through creating an IAM role that grants EC2 instances 
    - Optionally, add a description and tags.
    - Click **Create role**.
 
-   ![Configure Role](images/configure-role.png)
+   ![Configure Role](https://github.com/user-attachments/assets/58b24cc2-af92-4c26-9f7b-d0812733a3af)
 
 ### 4. Attach Role to EC2 Instance
 
-1. **Modify IAM Role for EC2 Instance**
+1. **Checking if we can access s3 inside this instance**
+
+   ![Configure Role](https://github.com/user-attachments/assets/9a00e9b3-d6ad-46b9-a4ba-9d873536c1af)
+
+   we cannot access s3 as we have not configured role to this EC2.
+
+2. **Modify IAM Role for EC2 Instance**
    - Open the Amazon EC2 console at https://console.aws.amazon.com/ec2/.
    - In the navigation pane, choose **Instances**.
    - Select the instance you want to attach the role to.
-   - Click on **Actions**, then **Security**, and then **Modify IAM role**.
+   - Click on **Actions**, then **Security**, and then **Modify IAM role**.  
+
+   ![Attach Role to EC2 Instance](https://github.com/user-attachments/assets/aaaaecad-3030-43e2-af5b-5cc5b06e4c9a)
+
    - Choose `S3ListBucketRole` from the **IAM role** list.
    - Click **Update IAM role**.
 
-   ![Attach Role to EC2 Instance](images/attach-role-to-instance.png)
+   ![Attach Role to EC2 Instance](https://github.com/user-attachments/assets/40ee3009-c85c-4e32-a253-2f179ffc5eec)
 
 ### 5. Verification
-
-#### Verify EC2 Instance Cannot List S3 Buckets (Before Attaching Role)
 
 1. **Connect to EC2 Instance**
    - Connect to the EC2 instance using SSH or Session Manager.
@@ -63,3 +70,5 @@ This guide will walk you through creating an IAM role that grants EC2 instances 
 
    ```bash
    aws s3 ls
+
+   ![Attach Role to EC2 Instance](https://github.com/user-attachments/assets/c9f85674-a590-414c-8920-72282842b9ce)
