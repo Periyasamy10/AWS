@@ -67,6 +67,7 @@ This guide will walk you through creating an IAM role that grants EC2 instances 
 1. **Connect to EC2 Instance**
    - Connect to the EC2 instance using SSH or Session Manager.
    - Run the following command to attempt to list S3 buckets:
+     
 
    ```bash
    aws s3 ls
