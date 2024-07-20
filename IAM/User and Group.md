@@ -11,10 +11,13 @@ This guide will walk you through creating IAM users, creating groups, attaching 
 
 ![Create IAM User](https://github.com/user-attachments/assets/81ca8a6b-19db-455e-b989-dffa02e9d626)
    
-4. For **User name**, enter `John`. Select the checkbox next to **AWS Management Console access**, then choose **Next: Permissions**.
-5. Repeat the steps for another user, `Jenny`.
+3. For **User name**, enter `John`. Select the checkbox next to **AWS Management Console access**, then choose **Next: Permissions**.
 
-![Create IAM User](images/create-user.png)
+![Create IAM User](https://github.com/user-attachments/assets/45b9bac7-8cde-41aa-9a0a-62516d3a914a)
+
+4. Repeat the steps for another user, `Jenny`.
+
+![Create IAM User](https://github.com/user-attachments/assets/bb2aa274-2d48-48b7-8f43-e6164c3fea00)
 
 ### 2. Create IAM Groups
 
